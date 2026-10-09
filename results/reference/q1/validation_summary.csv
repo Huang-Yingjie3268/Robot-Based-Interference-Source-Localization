@@ -1,0 +1,6 @@
+﻿metric,value,unit
+state,bounded_polygon,-
+diameter,30.229605714,m
+minimum_enclosing_radius,17.453070997,m
+D_over_2,15.114802857,m
+any_D_diameter_circle_covers,False,-

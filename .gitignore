@@ -1,0 +1,48 @@
+# Python environments, bytecode, and packaging
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and operating-system caches
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# MATLAB autosave and generated caches
+*.asv
+*.autosave
+*.m~
+*.mex*
+slprj/
+codegen/
+
+# Temporary runs; reference and reproduced evidence stays tracked
+/results/generated/
+/tmp/
+/temp/
+*.tmp
+*.log
+
+# Local simulator identity and private contest logs
+.env
+.env.*
+*.jlog
+*_action_log*.json
+
+# Papers and historical archive bundles are excluded by design
+*.pdf
+*.tex
+*.bib
+*.zip

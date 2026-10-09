@@ -1,0 +1,95 @@
+key,variant,value,unit,note
+k1_grid,50m,112.1328,m,"best=(800.00,600.00), feasible=280"
+k1_grid,25m,111.8931,m,"best=(850.00,525.00)"
+k1_grid,5m,110.9874,m,"best=(840.00,550.00)"
+k1_grid,1m,110.9735,m,"best=(844.00,544.00)"
+k1_grid,1m+罗盘+∂F_rec投影+断点集精算,110.9697,m,"S2=(844.0196,544.0127), theta2_worst=-42.0077, margin=0.0000, 罗盘收敛值=110.9735"
+k1_boundary_limit,d=1004.151m,110.9697,m,theta2_worst=-42.0077; margin=-0.0000; maxdist=1000.0000
+k2_theta_range,lower,37.3367,deg,"S2*=(843.0442,-545.5139)"
+k2_theta_range,upper,147.9426,deg,
+k2_scan401,max_diam,110.923905,m,argmax theta2=42.0374
+k2_char,theta2=37.3367,0.0,m,status=point; inTheta=Y
+k2_char,theta2=51.1624,81.0385,m,status=polygon; inTheta=Y
+k2_char,theta2=64.9882,56.20622,m,status=polygon; inTheta=Y
+k2_char,theta2=78.8139,42.404182,m,status=polygon; inTheta=Y
+k2_char,theta2=92.6397,35.08141,m,status=polygon; inTheta=Y
+k2_char,theta2=106.4654,36.542766,m,status=polygon; inTheta=Y
+k2_char,theta2=120.2911,40.58513,m,status=polygon; inTheta=Y
+k2_char,theta2=134.1169,48.813416,m,status=polygon; inTheta=Y
+k2_char,theta2=147.9426,0.0,m,status=point; inTheta=Y
+k2_ref_theta_range,lower,38.5623,deg,"S2=(804,-601) 参考点"
+k2_ref_theta_range,upper,144.0539,deg,
+k2_ref_scan401,max_diam,111.485337,m,argmax theta2=43.0457
+k2_ref_char,theta2=38.5623,0.0,m,status=point
+k2_ref_char,theta2=51.7487,82.428469,m,status=polygon
+k2_ref_char,theta2=64.9352,57.562986,m,status=polygon
+k2_ref_char,theta2=78.1216,43.390994,m,status=polygon
+k2_ref_char,theta2=91.3081,35.041291,m,status=polygon
+k2_ref_char,theta2=104.4945,36.183837,m,status=polygon
+k2_ref_char,theta2=117.6810,39.559875,m,status=polygon
+k2_ref_char,theta2=130.8674,46.325025,m,status=polygon
+k2_ref_char,theta2=144.0539,0.0,m,status=point
+k2_ref_pt,theta2=38.5623,0.0,m,status=point; inTheta=Y
+k2_ref_pt,theta2=40.0000,45.128392,m,status=polygon; inTheta=Y
+k2_ref_pt,theta2=42.0000,93.10253,m,status=polygon; inTheta=Y
+k2_ref_pt,theta2=43.0457,111.485269,m,status=polygon; inTheta=Y
+k2_ref_pt,theta2=50.0000,87.146386,m,status=polygon; inTheta=Y
+k2_ref_pt,theta2=90.0000,35.053513,m,status=polygon; inTheta=Y
+k2_ref_pt,theta2=120.0000,40.451653,m,status=polygon; inTheta=Y
+k2_ref_pt,theta2=140.0000,54.500365,m,status=polygon; inTheta=Y
+k2_ref_pt,theta2=144.0000,1.612438,m,status=polygon; inTheta=Y
+k3_A_ana,closed-form,1523.396458,m^2,4*d1*d2*tan^2(eps)/sin(gamma)
+k3_A_exact,halfplane-intersection,1523.396597,m^2,vertices=4
+k3_rel_err,,0.000009,%,
+k3_diam_ideal,菱形直径 2*sqrt(a^2+b^2),55.8835,m,"a=21.8188, b=17.4551, gamma=90"
+k4_frec_left,theta1轴,-0.0000,m,"margin=0.0000e+00, maxdist=1500.0000"
+k4_frec_left,解析,0.0000,m,"far-arc endpoint binding, R*=1500"
+k4_frec_left_const,解析（常数口径对照，已弃用）,500.1143,m,"far-arc endpoint binding, R=1000; 该配对物理不可实现"
+k4_margin,S2*（主答案）,0.0000,m,f(S2*)=max_g(||S2-g||-R*(g))=1.137e-13 ⟹ 最优解恰落在 ∂F_rec 上；同一处的几何量 maxdist=1000.0000 m
+k4_margin,S1（第一次检测点）,0.0000,m,f(S1)=0.000e+00 ≤ 0 ⟹ S1 ∈ F_rec 恒成立，耦合口径下 F_rec 非空性自动满足
+k4_frec_extent,x_max（θ1 轴上的右端点）,1004.0000,m,"near-arc endpoint (5,0) binding, R*=1000"
+k4_frec_extent,|y|_max,858.3009,m,出现在 x = 518 m
+k5_east_tangent,J*,28.7932,m,"S2=(1339.0,419.0); worst theta2=-47.9054"
+k5_east_tangent,两锥中心线方向差,137.9054,deg,|90.0 - -47.9054|
+k5_east_tangent,maxdist(S2*),549.3456,m,R_recv=1000 m，余量 450.6544 m ⟹ 最优解在 F_rec 内部
+k5_east_tangent,margin(S2*)（耦合口径）,-450.6544,m,margin<0 ⟹ 最优解严格落在 F_rec 内部（余量 450.6544 m）
+k5_east_tangent,|S2*|,1403.026,m,与 R0=1800 m 比较，判断 Ω 是否约束最优解
+k6_baseline,"(750,500)",129.7414,m,theta2_worst=-36.0606
+k6_improvement,(J_base-J*)/J_base,14.4688,%,J*=110.9693 (q2_center_result.csv)
+k7_paths,S-H vs 暴力枚举,2.984e-13,m,61 点（Θ 内 1/61 分辨率）
+k7_paths,S-H vs 解析角点,6.284e-06,m,无多边形逼近的第三条路径
+k8_near_gap,缺口最大弦高 5(1-cos delta),0.7615,mm,"d_H(P1_true, conv P1_true)：凸包相对真集合多出的最大厚度"
+k8_near_gap,缺口弦长 2*5*sin(delta),0.1745,m,
+k8_near_gap,理论影响上界 2*5(1-cos delta),1.5230,mm,|diam(P1∩C) − diam(conv P1∩C)| ≤ 2 d_H（纯数学，无需数值）
+k8_near_gap,build_P1 顶点到 S1 最小距离,5.000000,m,=5 表示缺口未引入 r<5 的顶点，两集合顶点集相同
+k8_near_gap,主口径 diam（凸包补平）,110.923905,m,theta2=42.0374
+k8_near_gap,真集合解析角点枚举 diam,110.923905,m,保留 r>=5 非凸约束 + 精确半平面 + 切向族，无多边形逼近
+k8_near_gap,两者之差,0.000e+00,m,缺口补平 + 远弧内接折线的总效应，远小于理论界 1.523 mm
+k8_near_gap,负面对照·边界采样 801 点/曲线,109.574951,m,kept=47; h=1.8687 m; 偏低 1.3490 m = 0.72 h（随 h→0 单调收缩的离散伪影，已弃用）
+k8_near_gap,负面对照·边界采样 1601 点/曲线,110.396699,m,kept=93; h=0.9344 m; 偏低 0.5272 m = 0.56 h（随 h→0 单调收缩的离散伪影，已弃用）
+k8_near_gap,负面对照·边界采样 3201 点/曲线,110.808242,m,kept=187; h=0.4672 m; 偏低 0.1157 m = 0.25 h（随 h→0 单调收缩的离散伪影，已弃用）
+k9_sens_quant,delta·线性拟合斜率,101.499761,m/单位,J = 101.499761·x +9.296468
+k9_sens_quant,delta·线性拟合截距,9.296468,m,最小二乘
+k9_sens_quant,delta·线性拟合 R^2,0.99989820,,最小二乘
+k9_sens_quant,delta·线性拟合最大残差,0.174032,m,
+k9_sens_quant,delta·一阶差分,+10.4124/+10.2347/+10.0616/+9.8931,m,相邻档 J* 之差
+k9_sens_quant,delta·二阶差分,-0.1778/-0.1731/-0.1685,m,全负 ⇒ 凹（一阶差分递减）
+k9_sens_quant,R·线性拟合斜率,-0.066477,m/单位,J = -0.066477·x +170.822668
+k9_sens_quant,R·线性拟合截距,170.822668,m,最小二乘
+k9_sens_quant,R·线性拟合 R^2,0.83030790,,最小二乘
+k9_sens_quant,R·线性拟合最大残差,6.810517,m,
+k9_sens_quant,R·一阶差分,-18.5592/-11.4941/-3.4943/-0.5062,m,相邻档 J* 之差
+k9_sens_quant,R·二阶差分,+7.0650/+7.9998/+2.9882,m,全正 ⇒ 凸（一阶差分递增，即边际递减）
+k9_sens_quant,R·首段 1000→1125 降幅,16.72,%,
+k9_sens_quant,R·末段 1375→1500 降幅,0.65,%,
+k9_sens_quant,R·全程 1000→1500 降幅,30.69,%,
+k10_theta_full_circle,F_rec 内格点总数,12187,个,"窗口 x[300,1200] y[-750,750]"
+k10_theta_full_circle,int(supp_1) 内格点数（射线法）,186,个,判据 (1)：与 polygon 射线法
+k10_theta_full_circle,int(supp_1) 内格点数（最大间隙<180°）,186,个,判据 (2)：与 theta2_range 采用的判据
+k10_theta_full_circle,两判据一致点数,186,个,应等于上两行
+k10_theta_full_circle,这些点的 J 最小值,750.2280,m,相对 J*=110.969320 的倍数 = 6.76
+k10_theta_full_circle,这些点的 J 最大值,1490.0020,m,
+k10_theta_full_circle,遗漏弧最大值 − 修复后 J（全点最大）,-0.000233,m,"argmax 点 = (760.0, 0.0, 755.001, 755.0007665670358)"
+k10_theta_full_circle,结论,补集支遗漏弧上的 diam 最大值恒不超过保留弧,,故整圆支补正不改变 int(supp_1) 内各点的 J
+k10_theta_full_circle,Theta(C) 见证点,"[0.0000,360.0000]",deg,宽 360.0000° = 整圆（C ∈ int supp_1）
+k10_theta_full_circle,Theta(S1),"[-2.0000,2.0000]",deg,宽 4.0000° = 窄弧（S1 ∉ supp_1，非整圆）

@@ -1,0 +1,19 @@
+{
+  "evidence_type": "offline_mock_reproduction",
+  "task": "q4",
+  "planner": "B",
+  "runs": 30,
+  "seed_start": 1000,
+  "seed_end": 1029,
+  "directional_ratio": 0.4,
+  "python": "3.12.14",
+  "model_file": "q4_directional_coverage.py",
+  "model_sha256": "bfd489b68d9e175976065f25504a161858c6218b3cb11d3b3bdabbd80f323c5c",
+  "total_sources": 384,
+  "cleared": 384,
+  "clearance_rate": 1.0,
+  "mean_run_virtual_time_s": 7057.836333333334,
+  "total_virtual_time_per_cleared_source_s": 551.3934635416666,
+  "mean_path_length_m": 26751.68,
+  "coverage_checks_passed": true
+}

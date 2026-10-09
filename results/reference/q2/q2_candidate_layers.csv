@@ -1,0 +1,4 @@
+layer,grid_m,window,cells,area_m2,threshold
+A2_hard_feasible,10.0,"x[-50,1050] y[-1000,1000]",12187,1218700.0,"max_g(||S2-g||-R*(g))<=0, R*(g)=max(1000,||S1-g||)"
+Q2_quality,10.0,"x[-50,1050] y[-1000,1000]",1310,131000.0,J<=1.2*Jstar=133.163182
+A_eta_near_optimal,10.0,"x[-50,1050] y[-1000,1000]",8,800.0,J<=Jstar+0.6

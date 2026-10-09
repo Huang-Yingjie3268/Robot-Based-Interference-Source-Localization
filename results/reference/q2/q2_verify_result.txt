@@ -1,0 +1,6 @@
+seed=20260911
+n_samples=50
+status_match=50
+max_abs_diff_m=4.5474735089e-13
+mean_abs_diff_m=9.3529628487e-14
+n_diff_lt_1e-5=50

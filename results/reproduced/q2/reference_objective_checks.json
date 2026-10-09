@@ -1,0 +1,26 @@
+[
+  {
+    "case": "中心向东",
+    "stored_J_m": 110.96931861216545,
+    "evaluated_J_m": 110.96931861216545,
+    "abs_difference_m": 0.0
+  },
+  {
+    "case": "东缘向内",
+    "stored_J_m": 110.9693186121658,
+    "evaluated_J_m": 110.9693186121658,
+    "abs_difference_m": 0.0
+  },
+  {
+    "case": "东缘切向",
+    "stored_J_m": 28.793212510962146,
+    "evaluated_J_m": 28.793212510962146,
+    "abs_difference_m": 0.0
+  },
+  {
+    "case": "东缘切向_保守口径_S2inOmega",
+    "stored_J_m": 28.793212510962146,
+    "evaluated_J_m": 28.793212510962146,
+    "abs_difference_m": 0.0
+  }
+]

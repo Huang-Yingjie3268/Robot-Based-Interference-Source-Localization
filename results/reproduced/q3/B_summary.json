@@ -1,0 +1,19 @@
+{
+  "evidence_type": "offline_mock_reproduction",
+  "task": "q3",
+  "planner": "B",
+  "runs": 30,
+  "seed_start": 1000,
+  "seed_end": 1029,
+  "directional_ratio": null,
+  "python": "3.12.14",
+  "model_file": "q3_autonomous_search.py",
+  "model_sha256": "80ea1ea8a4adce6019f08f8d0805fc8db379fe17a01f2332071e673e9f7615f3",
+  "total_sources": 384,
+  "cleared": 384,
+  "clearance_rate": 1.0,
+  "mean_run_virtual_time_s": 3859.2296666666666,
+  "total_virtual_time_per_cleared_source_s": 301.50231770833335,
+  "mean_path_length_m": 14438.806666666667,
+  "coverage_checks_passed": true
+}

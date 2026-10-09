@@ -1,0 +1,7 @@
+case,state,vertices,D_m,Rmin_m
+two_point,bounded_polygon,4,3.492076950,1.746038475
+three_point,bounded_polygon,6,3.492076950,1.746038475
+equilateral_counterexample,bounded_polygon,3,30.229605716,17.453070997
+point_degenerate,point,1,0.000000000,0.000000000
+unbounded,unbounded,0,--,--
+S-H independent verification: PASS (tolerance 1e-6)

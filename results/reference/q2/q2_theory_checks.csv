@@ -1,0 +1,19 @@
+key,variant,arg,value,unit,note
+c5_wedge_M,1e+03,28649.3442,1000.0,True,
+c5_wedge_M,1e+06,28649344.2493,1000000.0,True,
+c5_wedge_M,1e+09,28649344249.2751,1000000000.0,True,
+c5_diam_P1,-,,1495.003056,m,far-far=52.3572; near-far=1495.0031
+c5_notch_depth,D_NEAR*(1-cos(delta)),,0.000761524,m,= 0.7615 mm；弦长 0.1745 m
+c2_Rcov_P1,闭式,752.614627,747.615393,m,argmin 圆心在 θ1 轴
+c2_Rcov_P1,数值扫描 0.001m,752.615,747.615767,m,
+c2_Rcov_P1,边界采样复核,,747.615767,m,独立于闭式
+c2_Rcov_limit,D_NEAR=0,,750.114246,m,≈ R_MAX/2
+c2_threshold,F_rec≠∅ ⟺ R_min ≥ R_cov(P1),,747.615393,m,本文 R_min=1000 满足（常数口径）
+c2_coupled_nonempty,F_rec(S1) 恒非空（耦合口径）,,0.0,m,margin(S1)=max_g(||S1-g||-R*(g)) ≤ 0 恒成立
+c6_witness_X,"(750.00,0.00)",,750.228422,m,M = S1 + 750·u(θ1)
+c6_witness_C,"(752.61,0.00)",,747.615393,m,P1 最小覆盖圆圆心
+c3_global_min,r1=5.0,,32.126324,m,γ=146.9384°
+c3_global_max,r1=1445.0,,110.353126,m,γ=42.1840°；源距端点 R_max
+c3_near_local_max,r1=40.0,,62.365277,m,γ=145.8114°
+c3_valley,r1=840.0,,35.044732,m,γ=90.3197°，两视线近正交
+c3b_baseline_dmax,S1→S2* 方向,,1004.145882,m,二分法求 margin=0 的边界（耦合口径）
